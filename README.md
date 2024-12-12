@@ -10,13 +10,13 @@ More info on this project at https://lo.calho.st/posts/homeassistant-qr-code-det
 
 You can add this repository to your Home Assistant instance by clicking this link:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftmick0%2Fha-cam-tag)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fjrichter-svmx%2Fha-cam-tag)
 
 If for whatever reason that doesn't work, follow these steps:
 
 1. Go to `Settings -> Add-ons -> Add-on Store` in your Home Assistant instance
 2. From the three-dots menu in the top right, select `Repositories`
-3. Enter the URI of this repository `https://github.com/tmick0/ha-cam-tag` and click Add
+3. Enter the URI of this repository `https://github.com/jrichter-svmx/ha-cam-tag` and click Add
 
 ### Step 2: Install add-on
 
