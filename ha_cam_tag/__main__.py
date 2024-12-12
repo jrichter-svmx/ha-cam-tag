@@ -51,9 +51,16 @@ def main():
     with open(CONFIG_PATH, 'r') as fh:
         config = json.load(fh)
 
-    detector_type = config.get('detector_type', 'qr_code')  # Default to QR code detection
+    # Read configuration options
+    detector_type = config.get('detector_type', 'qr_code')  # Default to qr_code
     tag_event_device_id = config['tag_event_device_id']
     camera_stream = config['camera_rtsp_stream']
+
+    # Validate detector_type
+    valid_detectors = ['qr_code']
+    if detector_type not in valid_detectors:
+        logging.warning(f"Invalid detector_type '{detector_type}', defaulting to 'qr_code'")
+        detector_type = 'qr_code'
 
     exiting = False
     frame = None
