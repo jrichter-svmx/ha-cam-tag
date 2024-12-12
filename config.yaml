@@ -1,6 +1,6 @@
 name: "Streaming Camera Tag Detection"
 description: "Detects QR codes in an IP camera stream and sends tag events to Home Assistant"
-version: "0.0.1"
+version: "0.0.2"
 slug: "ha_cam_tag"
 init: false
 homeassistant_api: true
