@@ -13,6 +13,11 @@ arch:
 options:
   tag_event_device_id: "00000000000000000000000000000000"
   camera_rtsp_stream: "rtsp://camera-ip-address/"
+  detector_type: "qr_code"
 schema:
   tag_event_device_id: "match(^[a-zA-Z0-9]{32}$)"
   camera_rtsp_stream: "match(^rtsp:\/\/.*)"
+  detector_type:
+    type: "string"
+    enum:
+      - "qr_code"
